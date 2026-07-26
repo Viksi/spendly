@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command *)",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\pip.exe install -r requirements.txt)",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe app.py)"
+    ]
+  }
+}
