@@ -3,7 +3,9 @@
     "allow": [
       "PowerShell(Get-Command *)",
       "PowerShell(.\\\\venv\\\\Scripts\\\\pip.exe install -r requirements.txt)",
-      "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe app.py)"
+      "PowerShell(.\\\\venv\\\\Scripts\\\\python.exe app.py)",
+      "Bash(timeout 5 venv/Scripts/python.exe app.py)",
+      "Bash(echo \"---exit $?---\")"
     ]
   }
 }
